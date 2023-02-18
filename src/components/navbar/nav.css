@@ -1,0 +1,18 @@
+nav {
+  height: 65px;
+  display: grid;
+  grid-template-columns: 0fr 1fr auto;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 10px;
+}
+
+nav img {
+  height: 30%;
+  margin-top: 15px;
+  margin-right: 0.5rem;
+}
+
+.projectTitle {
+  margin-right: 5px;
+}

@@ -1,0 +1,36 @@
+main {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+}
+.inputText {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
+  margin: 1.2rem;
+  place-items: center;
+}
+
+.inputText > input {
+  height: 35px;
+  width: 100%;
+  border-radius: 6px;
+  border: 3px solid #d5d4d8;
+  border-style: none;
+  text-align: center;
+}
+
+.inputButton {
+  width: 80%;
+  margin: auto;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  border-style: none;
+}
+
+main > img {
+  margin: auto;
+  padding: 20px;
+}
